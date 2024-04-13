@@ -1,10 +1,63 @@
-
+/*Classe servant a l'application*/
 .separator{
-  width: 150px;
   height: 2px;
   border-radius: 10px 10px 10px 10px;
 }
 
 .bg-noir{
   background-color: black;
+}
+
+
+/*Pour iframe de coordonnees*/
+.iframe{
+  height: 50vh;
+}
+
+/**Pour le formulaire des coordonees*/
+.w-formulaire
+{
+  width: 40%;
+}
+
+
+/* w-70 pour la div section*/
+.sidebar{
+  height: 45rem;
+}
+
+/* Styles spécifiques lorsque le footer est sur le point d'être atteint */
+.footer-reached {
+  bottom: 10px/* Hauteur de votre footer */;
+  top: auto;
+}
+
+/* Animation des sections */
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-div {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.m-26{
+  margin-left: 25rem;
+}
+
+.w-20{
+  width: 25%;
+}
+
+.w-absolute{
+  width: 22.3rem
+}
+
+.bottom-1{
+  bottom: .25rem;
 }
