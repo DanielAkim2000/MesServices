@@ -15,7 +15,7 @@ const TechnoInfo = (props) => {
             <Separator width={'50%'} color={props.color} />
             <div className="row">
                 <img src={ props.logo} className='col-4 m-auto' alt="React Logo non chargé" />
-                <p className='col-8 m-auto'>
+                <p className='col-8 m-auto text-justify'>
                 {props.text}
                 </p>
             </div>
@@ -25,7 +25,7 @@ const TechnoInfo = (props) => {
 
 const technologies = () => {
     return (
-        <section className='animated-div border border-2 border-black rounded w-100  mt-1 mb-1 m-26 p-4'>
+        <section className='animated-div border border-2 border-black rounded w-100  mt-1 mb-1 p-4'>
             <TechnoInfo name='NodeJs' logo = { nodeLogo } color={'#008000'} text={
                 `Dans le paysage dynamique du développement web, choisir la bonne technologie est essentiel pour garantir des performances optimales et une expérience utilisateur exceptionnelle. 
                 C'est là qu'intervient Node.js. En optant pour Node.js pour votre site web, vous bénéficiez d'une plateforme JavaScript côté serveur rapide, évolutive et polyvalente, conçue pour gérer des applications web en temps réel avec une efficacité remarquable. 

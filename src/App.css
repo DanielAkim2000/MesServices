@@ -23,13 +23,10 @@
 
 /* w-70 pour la div section*/
 .sidebar{
-  height: 45rem;
-}
-
-/* Styles spécifiques lorsque le footer est sur le point d'être atteint */
-.footer-reached {
-  bottom: 10px/* Hauteur de votre footer */;
-  top: auto;
+  /* Rendre a taille dynamique par rapport a la hauter de l ecran */
+  height: calc(100vh - 6.5rem);
+  /* Rendre invisble le contenu qui depassera de la div */
+  overflow: hidden;
 }
 
 /* Animation des sections */
@@ -41,23 +38,30 @@
     transform: translateY(0);
   }
 }
-
+/* La classe a afecter a une div pour qu elle a cette animation */
 .animated-div {
   animation: slideIn 0.5s ease forwards;
 }
-
+/* Margin entre la section et la gauche */
 .m-26{
-  margin-left: 25rem;
+  margin-left: 26.5vw;
 }
-
+/* Taille des section */
+.w-76{
+  width: calc(100% - 27vw)
+}
 .w-20{
   width: 25%;
 }
-
+/* Taille de la sidebar */
 .w-absolute{
-  width: 22.3rem
+  width: 25vw
 }
-
+/* Pour fixer la sidebar au bottom */
 .bottom-1{
   bottom: .25rem;
+}
+/* Pour pouvoir justifier du texte */
+.text-justify{
+  text-align: justify;
 }
