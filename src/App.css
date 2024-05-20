@@ -25,6 +25,12 @@
   position: -webkit-sticky; /* Pour la compatibilité avec les anciens navigateurs */
   position: sticky;
   top: 85px;
+  /* pour les petits ecrans il passe en position relative*/
+  @media (max-width: 768px) {
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+  }
 }
 
 

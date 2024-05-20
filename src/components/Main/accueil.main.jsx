@@ -76,8 +76,8 @@ const AccueilMain = () => {
   };
 
   return (
-    <main className="d-flex flex-row justify-content-start  m-2 main">
-      <div className="border sidebar sticky w-25 bottom-0 w-absolute border-2 border-black opacity-75 d-flex text-white flex-column align-items-center mx-2 p-2 rounded bg-noir">
+    <main className="d-lg-flex flex-row gap-1 justify-content-start p-2 main">
+      <div className="border sidebar sticky col-sm-4 col-lg-3 bottom-0 w-absolute border-2 border-black opacity-75 d-flex flex-column text-white align-items-center mx-auto p-1 rounded bg-noir">
         <Separator width={"70%"} color={"white"} />
         <i className="fs-5">Sections</i>
         <Separator width={"70%"} color={"white"} />

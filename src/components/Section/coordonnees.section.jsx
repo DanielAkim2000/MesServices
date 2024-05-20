@@ -145,7 +145,7 @@ const TextInfo = () => {
 //Composant coordoonees
 const Coordonnees = () => {
   return (
-    <section className="animated-div border border-2 border-black rounded w-75 p-4">
+    <section className="animated-div border border-2 border-black rounded col-sm-12 col-lg-9 mx-auto p-4">
       <div className="d-flex flex-row align-items-start fst-italic">
         <Localisation />
         <TextInfo />
