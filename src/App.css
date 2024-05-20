@@ -20,11 +20,18 @@
   width: 40%;
 }
 
+/* //sticky */
+.sticky {
+  position: -webkit-sticky; /* Pour la compatibilité avec les anciens navigateurs */
+  position: sticky;
+  top: 85px;
+}
+
 
 /* w-70 pour la div section*/
 .sidebar{
   /* Rendre a taille dynamique par rapport a la hauter de l ecran */
-  height: calc(100vh - 6.5rem);
+  height: calc(100vh - 7rem);
   /* Rendre invisble le contenu qui depassera de la div */
   overflow: hidden;
 }
@@ -54,7 +61,7 @@
   width: 25%;
 }
 /* Taille de la sidebar */
-.w-absolute{
+.w-side{
   width: 25vw
 }
 /* Pour fixer la sidebar au bottom */

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const pourquoiChoisir = () => {
+const PourquoiChoisir = () => {
     return (
-        <section className='animated-div border border-2 border-black rounded w-100  mt-1 mb-1 p-4'>
+        <section className='animated-div w-75 border border-2 border-black rounded p-4'>
             
         </section>
     );
 };
 
-export {pourquoiChoisir};
+export {PourquoiChoisir};

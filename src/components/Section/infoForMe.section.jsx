@@ -1,11 +1,11 @@
 import React from 'react';
 
-const infoForMe = () => {
+const InfoForMe = () => {
     return (
-        <section className='animated-div border border-2 border-black rounded w-100  mt-1 mb-1 p-4'>
+        <section className='animated-div w-75 border border-2 border-black rounded p-4'>
             InfoForMe
         </section>
     );
 };
 
-export { infoForMe };
+export { InfoForMe };
